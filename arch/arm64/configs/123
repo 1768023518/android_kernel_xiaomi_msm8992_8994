@@ -1,0 +1,13 @@
+arch/arm64/configs/libra_user_defconfig:3843:warning: override: reassigning to symbol MSM_TZ_LOG
+
+warning: (PCI_MSM && AMD_IOMMU) selects PCI_MSI which has unmet direct dependencies (PCI && ARCH_SUPPORTS_MSI)
+
+warning: (SND_SOC_APQ8074 && SND_SOC_MSM8992 && SND_SOC_MSM8994) selects SND_SOC_MSM_HDMI_CODEC_RX which has unmet direct dependencies (SOUND && !M68K && !UML && SND && SND_SOC && FB_MSM_MDSS_HDMI_PANEL && (SND_SOC_MSM8974 || SND_SOC_APQ8084 || SND_SOC_MSM8994))
+
+warning: (ARCH_MSM) selects DEVFREQ_GOV_MSM_BW_HWMON which has unmet direct dependencies (PM_DEVFREQ && (ARCH_MSM_KRAIT || ARCH_MSM_BIMC_BWMON))
+
+warning: (PCI_MSM && AMD_IOMMU) selects PCI_MSI which has unmet direct dependencies (PCI && ARCH_SUPPORTS_MSI)
+
+warning: (SND_SOC_APQ8074 && SND_SOC_MSM8992 && SND_SOC_MSM8994) selects SND_SOC_MSM_HDMI_CODEC_RX which has unmet direct dependencies (SOUND && !M68K && !UML && SND && SND_SOC && FB_MSM_MDSS_HDMI_PANEL && (SND_SOC_MSM8974 || SND_SOC_APQ8084 || SND_SOC_MSM8994))
+
+warning: (ARCH_MSM) selects DEVFREQ_GOV_MSM_BW_HWMON which has unmet direct dependencies (PM_DEVFREQ && (ARCH_MSM_KRAIT || ARCH_MSM_BIMC_BWMON))
